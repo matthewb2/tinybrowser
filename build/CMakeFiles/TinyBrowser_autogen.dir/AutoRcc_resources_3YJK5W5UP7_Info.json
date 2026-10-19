@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen",
+	"CMAKE_BINARY_DIR" : "D:/msys64_20251213/home/user/tinybrowser/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/msys64_20251213/home/user/tinybrowser/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/msys64_20251213/home/user/tinybrowser",
+	"CMAKE_SOURCE_DIR" : "D:/msys64_20251213/home/user/tinybrowser",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/include",
+	"INPUTS" : [],
+	"LOCK_FILE" : "D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/TinyBrowser_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "D:/msys64_20251213/mingw64/share/qt6/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/TinyBrowser_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "D:/msys64_20251213/home/user/tinybrowser/resources/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

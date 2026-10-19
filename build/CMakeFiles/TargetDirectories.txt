@@ -1,0 +1,10 @@
+D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/TinyBrowser.dir
+D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/edit_cache.dir
+D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/rebuild_cache.dir
+D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/TinyBrowser_autogen_timestamp_deps.dir
+D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/TinyBrowser_autogen.dir
+D:/msys64_20251213/home/user/tinybrowser/build/cssparser/CMakeFiles/cssparser.dir
+D:/msys64_20251213/home/user/tinybrowser/build/cssparser/CMakeFiles/edit_cache.dir
+D:/msys64_20251213/home/user/tinybrowser/build/cssparser/CMakeFiles/rebuild_cache.dir
+D:/msys64_20251213/home/user/tinybrowser/build/cssparser/CMakeFiles/cssparser_autogen_timestamp_deps.dir
+D:/msys64_20251213/home/user/tinybrowser/build/cssparser/CMakeFiles/cssparser_autogen.dir

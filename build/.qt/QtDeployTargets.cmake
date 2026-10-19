@@ -1,0 +1,5 @@
+set(__QT_DEPLOY_TARGET_cssparser_FILE D:/msys64_20251213/home/user/tinybrowser/build/lib/libcssparser.a)
+set(__QT_DEPLOY_TARGET_cssparser_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_TinyBrowser_FILE D:/msys64_20251213/home/user/tinybrowser/build/bin/TinyBrowser.exe)
+set(__QT_DEPLOY_TARGET_TinyBrowser_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_TinyBrowser_RUNTIME_DLLS D:/msys64_20251213/mingw64/bin/Qt6Widgets.dll;D:/msys64_20251213/mingw64/bin/Qt6Network.dll;D:/msys64_20251213/mingw64/bin/Qt6Gui.dll;D:/msys64_20251213/mingw64/bin/Qt6Core.dll)
