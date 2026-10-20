@@ -1,5 +1,5 @@
 CMakeFiles/TinyBrowser.dir/src/ui/MainWindow.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\src\ui\MainWindow.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/src/ui/MainWindow.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/MainWindow.h \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QMainWindow \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qmainwindow.h \
@@ -441,6 +441,7 @@ CMakeFiles/TinyBrowser.dir/src/ui/MainWindow.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qbitmap.h \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtabwidget.h \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebCanvas.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/QString \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QWidget \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/RenderEngine.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/QImage \
@@ -460,6 +461,8 @@ CMakeFiles/TinyBrowser.dir/src/ui/MainWindow.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qtextformat.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qpen.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qtextoption.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QStatusBar \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qstatusbar.h \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QToolBar \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtoolbar.h \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QVBoxLayout \

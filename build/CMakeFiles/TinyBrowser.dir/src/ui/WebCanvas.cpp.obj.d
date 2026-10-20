@@ -1,10 +1,9 @@
 CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\src\ui\WebCanvas.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/src/ui/WebCanvas.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebCanvas.h \
- D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QWidget \
- D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qwidget.h \
- D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
- D:/msys64_20251213/mingw64/include/qt6/QtGui/qtguiglobal.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/QString \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qstring.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qchar.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qglobal.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/type_traits \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -186,13 +185,6 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtresource.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qttranslation.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qversiontagging.h \
- D:/msys64_20251213/mingw64/include/qt6/QtGui/qtgui-config.h \
- D:/msys64_20251213/mingw64/include/qt6/QtGui/qtguiexports.h \
- D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgets-config.h \
- D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h \
- D:/msys64_20251213/mingw64/include/qt6/QtGui/qwindowdefs.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qobjectdefs.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qnamespace.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcompare.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qstdlibdetection.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcomparehelpers.h \
@@ -224,15 +216,23 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/vector.tcc \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/array \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/binders.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qstringview.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qbytearray.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qrefcount.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qnamespace.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtmetamacros.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qobjectdefs_impl.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qfunctionaltools_impl.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/memory \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/align.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/unique_ptr.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/ios \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydata.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qpair.h \
+ D:/msys64_20251213/mingw64/include/string.h \
+ D:/msys64_20251213/mingw64/include/sec_api/string_s.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydatapointer.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydataops.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qcontainertools_impl.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qxptype_traits.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/q23type_traits.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cstring \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/iterator \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stream_iterator.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/iosfwd \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stringfwd.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/postypes.h \
@@ -243,7 +243,8 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/_mingw_stat64.h \
  D:/msys64_20251213/mingw64/include/swprintf.inl \
  D:/msys64_20251213/mingw64/include/sec_api/wchar_s.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/char_traits.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/streambuf_iterator.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/streambuf \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/localefwd.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/clocale \
@@ -257,6 +258,7 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_classes.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/string \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/char_traits.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream_insert.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/cxxabi_forced.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_string.h \
@@ -272,14 +274,18 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/stdexcept \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stdexcept_except.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/streambuf \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/streambuf.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/memory \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/align.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/unique_ptr.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ios \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_ios.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_facets.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/cwctype \
  D:/msys64_20251213/mingw64/include/wctype.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/streambuf_iterator.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_facets.tcc \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_ios.tcc \
@@ -291,25 +297,6 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/backward/auto_ptr.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_uninitialized.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/glue_memory_defs.h \
- D:/msys64_20251213/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qobject.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qstring.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qchar.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qstringview.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qbytearray.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qrefcount.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydata.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qpair.h \
- D:/msys64_20251213/mingw64/include/string.h \
- D:/msys64_20251213/mingw64/include/sec_api/string_s.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydatapointer.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydataops.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qcontainertools_impl.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qxptype_traits.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/q23type_traits.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cstring \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/iterator \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stream_iterator.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q20functional.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q20memory.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q17memory.h \
@@ -327,6 +314,20 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qstringbuilder.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qstringconverter.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qstringconverter_base.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QWidget \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qwidget.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/qtguiglobal.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/qtgui-config.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/qtguiexports.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgets-config.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/qwindowdefs.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qobjectdefs.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qobjectdefs_impl.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qfunctionaltools_impl.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qobject.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qlist.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qhashfunctions.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/numeric \
@@ -447,6 +448,12 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/HtmlParser.h \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/StyleSheet.h \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/LayoutEngine.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/QEvent \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qcoreevent.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qbasictimer.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qabstracteventdispatcher.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qeventloop.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qdeadlinetimer.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/QFileInfo \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qfileinfo.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qfile.h \
@@ -464,13 +471,8 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcalendar.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qlocale.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtimezone.h \
- D:/msys64_20251213/mingw64/include/qt6/QtGui/QPaintEvent \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/QMouseEvent \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qevent.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qcoreevent.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qbasictimer.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qabstracteventdispatcher.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qeventloop.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qdeadlinetimer.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qurl.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qeventpoint.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qvector2d.h \
@@ -491,13 +493,17 @@ CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcoreapplication_platform.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qinputmethod.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qguiapplication_platform.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/QPaintEvent \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/QPainter \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qpainter.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qtextoption.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/qpen.h \
  D:/msys64_20251213/mingw64/include/qt6/QtGui/QResizeEvent \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QScrollBar \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qscrollbar.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qabstractslider.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/QSize \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/QString \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/QWheelEvent \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/fstream \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/basic_file.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++io.h \

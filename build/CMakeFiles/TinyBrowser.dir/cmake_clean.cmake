@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TinyBrowser.dir/src/rendering/RenderEngine.cpp.obj.d"
   "CMakeFiles/TinyBrowser.dir/src/scripting/ScriptEngine.cpp.obj"
   "CMakeFiles/TinyBrowser.dir/src/scripting/ScriptEngine.cpp.obj.d"
+  "CMakeFiles/TinyBrowser.dir/src/scripting/V8DOMBridge.cpp.obj"
+  "CMakeFiles/TinyBrowser.dir/src/scripting/V8DOMBridge.cpp.obj.d"
   "CMakeFiles/TinyBrowser.dir/src/ui/MainWindow.cpp.obj"
   "CMakeFiles/TinyBrowser.dir/src/ui/MainWindow.cpp.obj.d"
   "CMakeFiles/TinyBrowser.dir/src/ui/WebCanvas.cpp.obj"

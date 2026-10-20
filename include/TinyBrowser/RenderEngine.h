@@ -19,6 +19,7 @@ public:
     void drawHello();
     void renderLayout(const std::shared_ptr<LayoutNode>& root, int width, int height);
     QImage renderToQImage(int width, int height);
+    const QImage& image() const { return m_image; }
     bool isValid() const;
 
 private:

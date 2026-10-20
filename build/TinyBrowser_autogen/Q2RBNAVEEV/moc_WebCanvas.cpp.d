@@ -237,6 +237,7 @@ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/Q2RBNAVEEV/mo
   D:/msys64_20251213/mingw64/include/pthread_time.h \
   D:/msys64_20251213/mingw64/include/pthread_unistd.h \
   D:/msys64_20251213/mingw64/include/qt6/QtCore/QRectF \
+  D:/msys64_20251213/mingw64/include/qt6/QtCore/QString \
   D:/msys64_20251213/mingw64/include/qt6/QtCore/q17memory.h \
   D:/msys64_20251213/mingw64/include/qt6/QtCore/q20bit.h \
   D:/msys64_20251213/mingw64/include/qt6/QtCore/q20functional.h \

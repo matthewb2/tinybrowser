@@ -1,5 +1,5 @@
 CMakeFiles/TinyBrowser.dir/src/parser/StyleSheet.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\src\parser\StyleSheet.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/src/parser/StyleSheet.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/StyleSheet.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/string \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/requires_hosted.h \

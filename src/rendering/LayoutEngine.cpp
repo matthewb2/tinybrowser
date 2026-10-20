@@ -200,6 +200,12 @@ std::shared_ptr<LayoutNode> LayoutEngine::buildTree(const DomNode* dom,
         n->isInlineElement = (st.display == Display::Inline ||
                               st.display == Display::InlineBlock);
 
+        if (dom->tag == "a") {
+            if (const std::string* href = dom->getAttribute("href")) {
+                n->href = *href;
+            }
+        }
+
         if (dom->tag == "img") {
             n->isReplaced = true;
             if (st.width.isAuto()) {

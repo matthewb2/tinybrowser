@@ -1,6 +1,6 @@
 CMakeFiles/TinyBrowser.dir/TinyBrowser_autogen/mocs_compilation.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\build\TinyBrowser_autogen\mocs_compilation.cpp \
- D:\msys64_20251213\home\user\tinybrowser\build\TinyBrowser_autogen\Q2RBNAVEEV/moc_MainWindow.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/mocs_compilation.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/Q2RBNAVEEV/moc_MainWindow.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/MainWindow.h \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QMainWindow \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qmainwindow.h \
@@ -444,13 +444,13 @@ CMakeFiles/TinyBrowser.dir/TinyBrowser_autogen/mocs_compilation.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtmochelpers.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtmocconstants.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q20algorithm.h \
- D:\msys64_20251213\home\user\tinybrowser\build\TinyBrowser_autogen\Q2RBNAVEEV/moc_NetworkManager.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/Q2RBNAVEEV/moc_NetworkManager.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/NetworkManager.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/QObject \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/QString \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/QUrl \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qurl.h \
- D:\msys64_20251213\home\user\tinybrowser\build\TinyBrowser_autogen\Q2RBNAVEEV/moc_WebCanvas.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/Q2RBNAVEEV/moc_WebCanvas.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebCanvas.h \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QWidget \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/RenderEngine.h \

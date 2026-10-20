@@ -1,6 +1,6 @@
 cssparser/CMakeFiles/cssparser.dir/CSSParser.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSParser.cpp \
- D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSProperties.h \
+ D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSParser.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSProperties.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/cstdlib \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -118,7 +118,7 @@ cssparser/CMakeFiles/cssparser.dir/CSSParser.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/node_handle.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_map.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_multimap.h \
- D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSParser.h \
+ D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSParser.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/utility \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_relops.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/intcmp.h \
@@ -213,4 +213,4 @@ cssparser/CMakeFiles/cssparser.dir/CSSParser.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_algobase.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/glue_algorithm_defs.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/execution_defs.h \
- D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSUtils.h
+ D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSUtils.h

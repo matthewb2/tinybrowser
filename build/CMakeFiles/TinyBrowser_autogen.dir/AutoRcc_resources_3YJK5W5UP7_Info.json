@@ -5,7 +5,7 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "D:/msys64_20251213/home/user/tinybrowser",
 	"CMAKE_SOURCE_DIR" : "D:/msys64_20251213/home/user/tinybrowser",
 	"CROSS_CONFIG" : false,
-	"GENERATOR" : "MinGW Makefiles",
+	"GENERATOR" : "Unix Makefiles",
 	"INCLUDE_DIR" : "D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/include",
 	"INPUTS" : [],
 	"LOCK_FILE" : "D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/TinyBrowser_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Lock.lock",

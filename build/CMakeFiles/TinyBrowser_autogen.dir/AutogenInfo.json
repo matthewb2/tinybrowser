@@ -445,7 +445,7 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"D:/msys64_20251213/mingw64/bin/c++.exe",
+		"D:/msys64_20251213/mingw64/bin/g++.exe",
 		"-std=c++20",
 		"-w",
 		"-dM",
@@ -493,6 +493,11 @@
 		],
 		[
 			"D:/msys64_20251213/home/user/tinybrowser/src/scripting/ScriptEngine.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/msys64_20251213/home/user/tinybrowser/src/scripting/V8DOMBridge.cpp",
 			"MU",
 			null
 		],

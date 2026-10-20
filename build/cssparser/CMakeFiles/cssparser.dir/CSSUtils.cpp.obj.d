@@ -1,5 +1,5 @@
 cssparser/CMakeFiles/cssparser.dir/CSSUtils.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSUtils.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSUtils.cpp \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/cstring \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/version.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -15,7 +15,7 @@ cssparser/CMakeFiles/cssparser.dir/CSSUtils.cpp.obj: \
  D:/msys64_20251213/mingw64/include/vadefs.h \
  D:/msys64_20251213/mingw64/include/sdks/_mingw_ddk.h \
  D:/msys64_20251213/mingw64/include/sec_api/string_s.h \
- D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSUtils.h \
+ D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSUtils.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/cstdlib \
  D:/msys64_20251213/mingw64/include/stdlib.h \
  D:/msys64_20251213/mingw64/include/corecrt_wstdlib.h \

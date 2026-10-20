@@ -50,6 +50,7 @@ set(SOURCES
   src/rendering/RenderEngine.cpp
   src/rendering/LayoutEngine.cpp
   src/scripting/ScriptEngine.cpp
+  src/scripting/V8DOMBridge.cpp   # <-- 이 줄을 추가해주세요
   src/parser/HtmlParser.cpp
   src/parser/StyleSheet.cpp
   src/network/NetworkManager.cpp

@@ -1,5 +1,5 @@
 CMakeFiles/TinyBrowser.dir/src/main.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\src\main.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/src/main.cpp \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QApplication \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qapplication.h \
  D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \

@@ -24,6 +24,7 @@ TinyBrowser_autogen/timestamp: \
 	D:/msys64_20251213/home/user/tinybrowser/src/rendering/LayoutEngine.cpp \
 	D:/msys64_20251213/home/user/tinybrowser/src/rendering/RenderEngine.cpp \
 	D:/msys64_20251213/home/user/tinybrowser/src/scripting/ScriptEngine.cpp \
+	D:/msys64_20251213/home/user/tinybrowser/src/scripting/V8DOMBridge.cpp \
 	D:/msys64_20251213/home/user/tinybrowser/src/ui/MainWindow.cpp \
 	D:/msys64_20251213/home/user/tinybrowser/src/ui/WebCanvas.cpp \
 	D:/msys64_20251213/mingw64/include/_mingw.h \

@@ -1,5 +1,5 @@
 CMakeFiles/TinyBrowser.dir/src/parser/HtmlParser.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\src\parser\HtmlParser.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/src/parser/HtmlParser.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/HtmlParser.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/string \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/requires_hosted.h \

@@ -1,6 +1,6 @@
 cssparser/CMakeFiles/cssparser.dir/CSSDeNest.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSDeNest.cpp \
- D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSDeNest.h \
+ D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSDeNest.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSDeNest.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/string \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \

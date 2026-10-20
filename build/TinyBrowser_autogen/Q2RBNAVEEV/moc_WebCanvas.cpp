@@ -38,10 +38,17 @@ template <> constexpr inline auto TinyBrowser::WebCanvas::qt_create_metaobjectda
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "TinyBrowser::WebCanvas"
+        "TinyBrowser::WebCanvas",
+        "hoverUrlChanged",
+        "",
+        "url"
     };
 
     QtMocHelpers::UintData qt_methods {
+        // Signal 'hoverUrlChanged'
+        QtMocHelpers::SignalData<void(const QString &)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 3 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -63,10 +70,16 @@ Q_CONSTINIT const QMetaObject TinyBrowser::WebCanvas::staticMetaObject = { {
 void TinyBrowser::WebCanvas::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<WebCanvas *>(_o);
-    (void)_t;
-    (void)_c;
-    (void)_id;
-    (void)_a;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->hoverUrlChanged((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        default: ;
+        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (WebCanvas::*)(const QString & )>(_a, &WebCanvas::hoverUrlChanged, 0))
+            return;
+    }
 }
 
 const QMetaObject *TinyBrowser::WebCanvas::metaObject() const
@@ -85,6 +98,24 @@ void *TinyBrowser::WebCanvas::qt_metacast(const char *_clname)
 int TinyBrowser::WebCanvas::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 1;
+    }
     return _id;
+}
+
+// SIGNAL 0
+void TinyBrowser::WebCanvas::hoverUrlChanged(const QString & _t1)
+{
+    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }
 QT_WARNING_POP

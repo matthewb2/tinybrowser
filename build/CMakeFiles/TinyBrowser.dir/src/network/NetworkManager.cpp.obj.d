@@ -1,5 +1,5 @@
 CMakeFiles/TinyBrowser.dir/src/network/NetworkManager.cpp.obj: \
- D:\msys64_20251213\home\user\tinybrowser\src\network\NetworkManager.cpp \
+ D:/msys64_20251213/home/user/tinybrowser/src/network/NetworkManager.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/NetworkManager.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/QObject \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qobject.h \

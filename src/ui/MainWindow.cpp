@@ -3,6 +3,7 @@
 
 #include <QAction>
 #include <QLineEdit>
+#include <QStatusBar>
 #include <QToolBar>
 #include <QWidget>
 #include <QVBoxLayout>
@@ -64,6 +65,16 @@ void MainWindow::setupUi() {
 
   m_webCanvas = new WebCanvas(this);
   setCentralWidget(m_webCanvas);
+
+  connect(m_webCanvas, &WebCanvas::hoverUrlChanged, this,
+          [this](const QString& url) {
+            if (url.isEmpty()) {
+              statusBar()->clearMessage();
+            } else {
+              statusBar()->showMessage(url);
+            }
+          });
+  statusBar()->showMessage(tr("Ready"));
 }
 
 void MainWindow::onGo() {

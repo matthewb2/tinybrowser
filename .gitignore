@@ -1,4 +1,3 @@
-*~
 codedocs
 core
 dist
@@ -6,30 +5,13 @@ install
 install
 ns.log
 log.txt
-wisp-logs
-build-gprof
-install-gprof
-build-finstrument
-install-finstrument
-build-ctest
-build-inc
-_staging
-build-ninja
-build-release
-build-mingw
-build-mingw64
-install_mingw
-install_release
 *.diff
-Testing/Temporary
-duktape-build
 build-cmake
 build-gcc
-__pycache__
 dumped_script.js
-out
 build
-websites
-venv
+tests
+*.exe
+
 
 

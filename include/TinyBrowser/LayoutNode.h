@@ -14,6 +14,7 @@ class LayoutNode {
 public:
     std::string tagName;
     std::string textContent;
+    std::string href;
     Display display = Display::Block;
     ComputedStyle style;
 
