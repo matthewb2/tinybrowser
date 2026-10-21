@@ -1,17 +1,6 @@
 CMakeFiles/TinyBrowser.dir/src/main.cpp.obj: \
- D:/msys64_20251213/home/user/tinybrowser/src/main.cpp \
- D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QApplication \
- D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qapplication.h \
- D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
- D:/msys64_20251213/mingw64/include/qt6/QtGui/qtguiglobal.h \
- D:/msys64_20251213/mingw64/include/qt6/QtCore/qglobal.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/type_traits \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/pstl_config.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/version.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cstddef \
+ D:\msys64_20251213\home\user\tinybrowser\src\main.cpp \
+ D:/msys64_20251213/mingw64/include/v8.h \
  D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stddef.h \
  D:/msys64_20251213/mingw64/include/stddef.h \
  D:/msys64_20251213/mingw64/include/crtdefs.h \
@@ -21,34 +10,298 @@ CMakeFiles/TinyBrowser.dir/src/main.cpp.obj: \
  D:/msys64_20251213/mingw64/include/_mingw_secapi.h \
  D:/msys64_20251213/mingw64/include/vadefs.h \
  D:/msys64_20251213/mingw64/include/sdks/_mingw_ddk.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/utility \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_relops.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_pair.h \
+ D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
+ D:/msys64_20251213/mingw64/include/stdint.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/memory \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/memoryfwd.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/pstl_config.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/version.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/allocator.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/new_allocator.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/new \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/exception.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/new_except.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/exception_defines.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/new_throw.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/move.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/type_traits \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_tempbuf.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_construct.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_iterator_base_types.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/iterator_concepts.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/concepts \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ptr_traits.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_cmp.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/concept_check.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/debug/assertions.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_pair.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/utility.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/compare \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/concepts \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/initializer_list \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/intcmp.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/numeric_traits.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/cpp_type_traits.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/type_traits.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cstdint \
- D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
- D:/msys64_20251213/mingw64/include/stdint.h \
- D:/msys64_20251213/mingw64/include/assert.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/stdlib.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cstdlib \
- D:/msys64_20251213/mingw64/include/stdlib.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_uninitialized.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_algobase.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_iterator.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/debug/debug.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/predefined_ops.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_function.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/backward/binders.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bit \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/alloc_traits.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/alloc_traits.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/align.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/uses_allocator.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/unique_ptr.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tuple \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/invoke.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_util.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_base.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/initializer_list \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/max_size_type.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/numbers \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/limits \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/functional_hash.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/hash_bytes.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ios \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/iosfwd \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stringfwd.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/postypes.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cwchar \
+ D:/msys64_20251213/mingw64/include/wchar.h \
+ D:/msys64_20251213/mingw64/include/corecrt_stdio_config.h \
  D:/msys64_20251213/mingw64/include/corecrt_wstdlib.h \
+ D:/msys64_20251213/mingw64/include/corecrt_wctype.h \
+ D:/msys64_20251213/mingw64/include/_mingw_off_t.h \
+ D:/msys64_20251213/mingw64/include/_mingw_stat64.h \
+ D:/msys64_20251213/mingw64/include/swprintf.inl \
+ D:/msys64_20251213/mingw64/include/sec_api/wchar_s.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/exception \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/exception_ptr.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/cxxabi_init_exception.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/typeinfo \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/nested_exception.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/char_traits.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/localefwd.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/clocale \
+ D:/msys64_20251213/mingw64/include/locale.h \
+ D:/msys64_20251213/mingw64/include/stdio.h \
+ D:/msys64_20251213/mingw64/include/sec_api/stdio_s.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cctype \
+ D:/msys64_20251213/mingw64/include/ctype.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ios_base.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/atomicity.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
+ D:/msys64_20251213/mingw64/include/pthread.h \
+ D:/msys64_20251213/mingw64/include/errno.h \
+ D:/msys64_20251213/mingw64/include/sys/types.h \
+ D:/msys64_20251213/mingw64/include/process.h \
+ D:/msys64_20251213/mingw64/include/corecrt_startup.h \
  D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/limits.h \
  D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/syslimits.h \
  D:/msys64_20251213/mingw64/include/limits.h \
+ D:/msys64_20251213/mingw64/include/signal.h \
+ D:/msys64_20251213/mingw64/include/pthread_signal.h \
+ D:/msys64_20251213/mingw64/include/time.h \
+ D:/msys64_20251213/mingw64/include/sys/timeb.h \
+ D:/msys64_20251213/mingw64/include/sec_api/sys/timeb_s.h \
+ D:/msys64_20251213/mingw64/include/_timeval.h \
+ D:/msys64_20251213/mingw64/include/pthread_time.h \
+ D:/msys64_20251213/mingw64/include/pthread_compat.h \
+ D:/msys64_20251213/mingw64/include/sched.h \
+ D:/msys64_20251213/mingw64/include/pthread_unistd.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_classes.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/functexcept.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/string \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream_insert.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/cxxabi_forced.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stdexcept_throw.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stdexcept_throwfwd.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/range_access.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/erase_if.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_string.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/string_view \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/string_view.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/string_conversions.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cstdlib \
+ D:/msys64_20251213/mingw64/include/stdlib.h \
  D:/msys64_20251213/mingw64/include/sec_api/stdlib_s.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/stdlib.h \
  D:/msys64_20251213/mingw64/include/malloc.h \
  D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
- D:/msys64_20251213/mingw64/include/errno.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/std_abs.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cstdio \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cerrno \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/charconv.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_string.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/memory_resource.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cstddef \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/uses_allocator_args.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_classes.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/system_error \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/stdexcept \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stdexcept_except.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/streambuf \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/streambuf.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_ios.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_facets.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cwctype \
+ D:/msys64_20251213/mingw64/include/wctype.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/streambuf_iterator.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_facets.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_ios.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/shared_ptr.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/shared_ptr_base.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/allocated_ptr.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/refwrap.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/aligned_buffer.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/concurrence.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/shared_ptr_atomic.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/atomic_base.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/atomic_lockfree_defines.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/atomic_wait.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/backward/auto_ptr.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_uninitialized.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_algobase.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/glue_memory_defs.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/execution_defs.h \
+ D:/msys64_20251213/mingw64/include/cppgc/common.h \
+ D:/msys64_20251213/mingw64/include/v8config.h \
+ D:/msys64_20251213/mingw64/include/v8-array-buffer.h \
+ D:/msys64_20251213/mingw64/include/v8-local-handle.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/vector \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_vector.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_bvector.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/vector.tcc \
+ D:/msys64_20251213/mingw64/include/v8-handle-base.h \
+ D:/msys64_20251213/mingw64/include/v8-internal.h \
+ D:/msys64_20251213/mingw64/include/string.h \
+ D:/msys64_20251213/mingw64/include/sec_api/string_s.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/atomic \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cstdint \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/iterator \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stream_iterator.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/optional \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/enable_special_members.h \
+ D:/msys64_20251213/mingw64/include/v8config.h \
+ D:/msys64_20251213/mingw64/include/v8-memory-span.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/array \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ranges \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/span \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/binders.h \
+ D:/msys64_20251213/mingw64/include/v8-object.h \
+ D:/msys64_20251213/mingw64/include/cppgc/garbage-collected.h \
+ D:/msys64_20251213/mingw64/include/cppgc/internal/api-constants.h \
+ D:/msys64_20251213/mingw64/include/cppgc/platform.h \
+ D:/msys64_20251213/mingw64/include/cppgc/source-location.h \
+ D:/msys64_20251213/mingw64/include/v8-source-location.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/source_location \
+ D:/msys64_20251213/mingw64/include/v8-platform.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/math.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cmath \
+ D:/msys64_20251213/mingw64/include/math.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/specfun.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/gamma.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/special_function_util.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/bessel_function.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/beta_function.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/ell_integral.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/exp_integral.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/hypergeometric.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/legendre_function.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/modified_bessel_func.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/poly_hermite.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
+ D:/msys64_20251213/mingw64/include/v8-source-location.h \
+ D:/msys64_20251213/mingw64/include/cppgc/trace-trait.h \
+ D:/msys64_20251213/mingw64/include/cppgc/type-traits.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/utility \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_relops.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/intcmp.h \
+ D:/msys64_20251213/mingw64/include/cppgc/name-provider.h \
+ D:/msys64_20251213/mingw64/include/v8-maybe.h \
+ D:/msys64_20251213/mingw64/include/cppgc/internal/conditional-stack-allocated.h \
+ D:/msys64_20251213/mingw64/include/cppgc/macros.h \
+ D:/msys64_20251213/mingw64/include/cppgc/internal/compiler-specific.h \
+ D:/msys64_20251213/mingw64/include/v8-persistent-handle.h \
+ D:/msys64_20251213/mingw64/include/v8-weak-callback-info.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/cstring \
+ D:/msys64_20251213/mingw64/include/v8-primitive.h \
+ D:/msys64_20251213/mingw64/include/v8-data.h \
+ D:/msys64_20251213/mingw64/include/v8-value.h \
+ D:/msys64_20251213/mingw64/include/v8-sandbox.h \
+ D:/msys64_20251213/mingw64/include/v8-traced-handle.h \
+ D:/msys64_20251213/mingw64/include/v8-platform.h \
+ D:/msys64_20251213/mingw64/include/v8-container.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/functional \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/std_function.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/unordered_map \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/unordered_map.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/hashtable.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/hashtable_policy.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/node_handle.h \
+ D:/msys64_20251213/mingw64/include/v8-context.h \
+ D:/msys64_20251213/mingw64/include/v8-snapshot.h \
+ D:/msys64_20251213/mingw64/include/v8-isolate.h \
+ D:/msys64_20251213/mingw64/include/v8-callbacks.h \
+ D:/msys64_20251213/mingw64/include/v8-promise.h \
+ D:/msys64_20251213/mingw64/include/v8-debug.h \
+ D:/msys64_20251213/mingw64/include/v8-script.h \
+ D:/msys64_20251213/mingw64/include/v8-message.h \
+ D:/msys64_20251213/mingw64/include/v8-embedder-heap.h \
+ D:/msys64_20251213/mingw64/include/v8-exception.h \
+ D:/msys64_20251213/mingw64/include/v8-function-callback.h \
+ D:/msys64_20251213/mingw64/include/v8-microtask.h \
+ D:/msys64_20251213/mingw64/include/v8-statistics.h \
+ D:/msys64_20251213/mingw64/include/v8-unwinder.h \
+ D:/msys64_20251213/mingw64/include/v8-embedder-state-scope.h \
+ D:/msys64_20251213/mingw64/include/v8-date.h \
+ D:/msys64_20251213/mingw64/include/v8-extension.h \
+ D:/msys64_20251213/mingw64/include/v8-external.h \
+ D:/msys64_20251213/mingw64/include/v8-function.h \
+ D:/msys64_20251213/mingw64/include/v8-template.h \
+ D:/msys64_20251213/mingw64/include/v8-initialization.h \
+ D:/msys64_20251213/mingw64/include/v8-json.h \
+ D:/msys64_20251213/mingw64/include/v8-locker.h \
+ D:/msys64_20251213/mingw64/include/v8-microtask-queue.h \
+ D:/msys64_20251213/mingw64/include/v8-primitive-object.h \
+ D:/msys64_20251213/mingw64/include/v8-proxy.h \
+ D:/msys64_20251213/mingw64/include/v8-regexp.h \
+ D:/msys64_20251213/mingw64/include/v8-typed-array.h \
+ D:/msys64_20251213/mingw64/include/v8-value-serializer.h \
+ D:/msys64_20251213/mingw64/include/v8-version.h \
+ D:/msys64_20251213/mingw64/include/v8-wasm.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/variant \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/monostate.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/parse_numbers.h \
+ D:/msys64_20251213/mingw64/include/libplatform/libplatform.h \
+ D:/msys64_20251213/mingw64/include/libplatform/libplatform-export.h \
+ D:/msys64_20251213/mingw64/include/libplatform/v8-tracing.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/unordered_set \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/unordered_set.h \
+ D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ScriptEngine.h \
+ D:/msys64_20251213/mingw64/include/v8-function-callback.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/QApplication \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qapplication.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtGui/qtguiglobal.h \
+ D:/msys64_20251213/mingw64/include/qt6/QtCore/qglobal.h \
+ D:/msys64_20251213/mingw64/include/assert.h \
  D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtcoreglobal.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtversionchecks.h \
@@ -71,113 +324,32 @@ CMakeFiles/TinyBrowser.dir/src/main.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtversion.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtypeinfo.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcontainerfwd.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/limits \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qsysinfo.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qlogging.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qflags.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcompare_impl.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/algorithm \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_algobase.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_iterator_base_types.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/iterator_concepts.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ptr_traits.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_cmp.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/concept_check.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/debug/assertions.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_iterator.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/new \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/exception.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/new_except.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/exception_defines.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_construct.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/debug/debug.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/predefined_ops.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_function.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/backward/binders.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bit \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_algo.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/algorithmfwd.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_heap.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/uniform_int_dist.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_tempbuf.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_algo.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_algobase.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_base.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/max_size_type.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/numbers \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/invoke.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_util.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/glue_algorithm_defs.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/execution_defs.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qatomic.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qbasicatomic.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qatomic_cxx11.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qgenericatomic.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qyieldcpu.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/atomic \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/atomic_base.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/atomic_lockfree_defines.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/atomic_wait.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
- D:/msys64_20251213/mingw64/include/pthread.h \
- D:/msys64_20251213/mingw64/include/sys/types.h \
- D:/msys64_20251213/mingw64/include/_mingw_off_t.h \
- D:/msys64_20251213/mingw64/include/process.h \
- D:/msys64_20251213/mingw64/include/corecrt_startup.h \
- D:/msys64_20251213/mingw64/include/signal.h \
- D:/msys64_20251213/mingw64/include/pthread_signal.h \
- D:/msys64_20251213/mingw64/include/time.h \
- D:/msys64_20251213/mingw64/include/sys/timeb.h \
- D:/msys64_20251213/mingw64/include/sec_api/sys/timeb_s.h \
- D:/msys64_20251213/mingw64/include/_timeval.h \
- D:/msys64_20251213/mingw64/include/pthread_time.h \
- D:/msys64_20251213/mingw64/include/pthread_compat.h \
- D:/msys64_20251213/mingw64/include/sched.h \
- D:/msys64_20251213/mingw64/include/pthread_unistd.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qconstructormacros.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qdarwinhelpers.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qexceptionhandling.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qforeach.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qttypetraits.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/optional \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/exception \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/exception_ptr.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/cxxabi_init_exception.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/typeinfo \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/hash_bytes.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/nested_exception.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/enable_special_members.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/functional_hash.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tuple \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/uses_allocator.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/variant \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/monostate.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/parse_numbers.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qfunctionpointer.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qglobalstatic.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qmalloc.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qminmax.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qnumeric.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cmath \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
- D:/msys64_20251213/mingw64/include/math.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/specfun.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stdexcept_throw.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stdexcept_throwfwd.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/gamma.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/special_function_util.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/bessel_function.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/beta_function.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/ell_integral.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/exp_integral.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/hypergeometric.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/legendre_function.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/modified_bessel_func.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/poly_hermite.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q20type_traits.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qoverload.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qswap.h \
@@ -195,34 +367,6 @@ CMakeFiles/TinyBrowser.dir/src/main.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcompare.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qstdlibdetection.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcomparehelpers.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/functional \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/refwrap.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/std_function.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/functexcept.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/unordered_map \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/unordered_map.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/hashtable.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/hashtable_policy.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/aligned_buffer.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/alloc_traits.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/alloc_traits.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/memoryfwd.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/allocator.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/new_allocator.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/new_throw.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/node_handle.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/range_access.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/erase_if.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/memory_resource.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/uses_allocator_args.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/vector \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_uninitialized.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_vector.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_bvector.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/vector.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/array \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/binders.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qstringview.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qbytearray.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qrefcount.h \
@@ -230,80 +374,11 @@ CMakeFiles/TinyBrowser.dir/src/main.cpp.obj: \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qtmetamacros.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydata.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qpair.h \
- D:/msys64_20251213/mingw64/include/string.h \
- D:/msys64_20251213/mingw64/include/sec_api/string_s.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydatapointer.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qarraydataops.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qcontainertools_impl.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qxptype_traits.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q23type_traits.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cstring \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/iterator \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stream_iterator.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/iosfwd \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stringfwd.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/postypes.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cwchar \
- D:/msys64_20251213/mingw64/include/wchar.h \
- D:/msys64_20251213/mingw64/include/corecrt_stdio_config.h \
- D:/msys64_20251213/mingw64/include/corecrt_wctype.h \
- D:/msys64_20251213/mingw64/include/_mingw_stat64.h \
- D:/msys64_20251213/mingw64/include/swprintf.inl \
- D:/msys64_20251213/mingw64/include/sec_api/wchar_s.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/streambuf_iterator.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/streambuf \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/localefwd.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/clocale \
- D:/msys64_20251213/mingw64/include/locale.h \
- D:/msys64_20251213/mingw64/include/stdio.h \
- D:/msys64_20251213/mingw64/include/sec_api/stdio_s.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cctype \
- D:/msys64_20251213/mingw64/include/ctype.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ios_base.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/atomicity.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_classes.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/string \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/char_traits.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream_insert.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/cxxabi_forced.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_string.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/string_view \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/string_view.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/string_conversions.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cstdio \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cerrno \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/charconv.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_string.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_classes.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/system_error \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/stdexcept \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stdexcept_except.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/streambuf.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/memory \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/align.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/unique_ptr.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/ios \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_ios.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_facets.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/cwctype \
- D:/msys64_20251213/mingw64/include/wctype.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/locale_facets.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/basic_ios.tcc \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/shared_ptr.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/shared_ptr_base.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/allocated_ptr.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/concurrence.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/shared_ptr_atomic.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/backward/auto_ptr.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_uninitialized.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/glue_memory_defs.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q20functional.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q20memory.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/q17memory.h \
@@ -334,8 +409,6 @@ CMakeFiles/TinyBrowser.dir/src/main.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_numeric.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/glue_numeric_defs.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qiterator.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/ranges \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/span \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qbytearraylist.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qstringlist.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qalgorithms.h \
@@ -429,8 +502,6 @@ CMakeFiles/TinyBrowser.dir/src/main.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/set \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_set.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_multiset.h \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/unordered_set \
- D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/unordered_set.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qmap.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qshareddata_impl.h \
  D:/msys64_20251213/mingw64/include/qt6/QtCore/qset.h \

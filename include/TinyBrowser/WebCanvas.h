@@ -8,6 +8,7 @@
 #include "TinyBrowser/RenderEngine.h"
 #include "TinyBrowser/HtmlParser.h"
 #include "TinyBrowser/StyleSheet.h"
+#include "TinyBrowser/ScriptEngine.h"
 #include "TinyBrowser/LayoutNode.h"
 
 class QScrollBar;
@@ -40,6 +41,7 @@ private:
   RenderEngine m_renderEngine;
   HtmlParser m_parser;
   StyleSheet m_styleSheet;
+  ScriptEngine m_scriptEngine;
   std::shared_ptr<LayoutNode> m_root;
   std::string m_baseDir;
 

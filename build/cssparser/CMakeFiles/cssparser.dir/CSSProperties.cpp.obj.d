@@ -1,5 +1,5 @@
 cssparser/CMakeFiles/cssparser.dir/CSSProperties.cpp.obj: \
- D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSProperties.cpp \
+ D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSProperties.cpp \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/string \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -111,7 +111,7 @@ cssparser/CMakeFiles/cssparser.dir/CSSProperties.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/tuple \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/invoke.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ranges_util.h \
- D:/msys64_20251213/home/user/tinybrowser/cssparser/CSSProperties.h \
+ D:\msys64_20251213\home\user\tinybrowser\cssparser\CSSProperties.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/map \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/stl_tree.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/ext/aligned_buffer.h \

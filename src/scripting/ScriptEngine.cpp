@@ -1,5 +1,5 @@
 #include "TinyBrowser/ScriptEngine.h"
-#include "TinyBrowser/V8DOMBridge.h"
+#include "TinyBrowser/WebIDLDom.h"
 
 #include <v8.h>
 #include <v8-context.h>
@@ -11,6 +11,8 @@
 #include <v8-exception.h>
 #include <v8-object.h>
 #include <v8-primitive.h>
+
+#include <iostream>
 
 namespace TinyBrowser {
 
@@ -55,18 +57,35 @@ bool ScriptEngine::initialize() {
   create_params.array_buffer_allocator = v8::ArrayBuffer::Allocator::NewDefaultAllocator();
   m_isolate = v8::Isolate::New(create_params);
   if (!m_isolate) return false;
+
+  v8::Isolate::Scope isolate_scope(m_isolate);
   v8::HandleScope handle_scope(m_isolate);
+
   v8::Local<v8::ObjectTemplate> global = v8::ObjectTemplate::New(m_isolate);
-  v8::Local<v8::ObjectTemplate> document = v8::ObjectTemplate::New(m_isolate);
-  document->Set(m_isolate, "write", v8::FunctionTemplate::New(m_isolate, &ScriptEngine::documentWrite));
-  global->Set(m_isolate, "document", document);
-  V8DOMBridge::Initialize(m_isolate, global);
+
+  // WebIDL로 생성된 DOM 인터페이스(ctor)를 글로벌 템플릿에 설치한다.
+  WebIDLDom::Install(m_isolate, global);
+
   v8::Local<v8::Context> context = v8::Context::New(m_isolate, nullptr, global);
+
   m_context = new v8::Global<v8::Context>(m_isolate, context);
   return true;
 }
 
+void ScriptEngine::setDocument(DomNode* root) {
+  if (!m_isolate || !m_context) return;
+  v8::Isolate::Scope isolate_scope(m_isolate);
+  v8::HandleScope handle_scope(m_isolate);
+  v8::Local<v8::Context> context = m_context->Get(m_isolate);
+  v8::Context::Scope context_scope(context);
+  WebIDLDom::SetDocument(m_isolate, root);
+}
+
 void ScriptEngine::shutdown() {
+  if (m_isolate) {
+    // The DOM objects own persistent V8 handles and have to go first.
+    WebIDLDom::Reset();
+  }
   if (m_context) {
     delete m_context;
     m_context = nullptr;
@@ -79,6 +98,9 @@ void ScriptEngine::shutdown() {
 
 bool ScriptEngine::executeScript(const std::string& source) {
   if (!m_isolate || !m_context) return false;
+  // ★ 핵심 수정: Isolate Scope 진입
+  v8::Isolate::Scope isolate_scope(m_isolate);
+  
   v8::HandleScope handle_scope(m_isolate);
   v8::Local<v8::Context> context = m_context->Get(m_isolate);
   v8::Context::Scope context_scope(context);

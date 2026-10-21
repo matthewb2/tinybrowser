@@ -1,0 +1,40 @@
+// Web IDL 부분집합: HTML 문서/엘리먼트 바인딩 생성기 입력용.
+
+[Exposed=Window]
+interface Document : Node {
+  readonly attribute Element documentElement;
+  readonly attribute Element? body;
+  readonly attribute Element? head;
+  attribute DOMString title;
+  Element? getElementById(DOMString elementId);
+  Element createElement(DOMString localName);
+  Node createTextNode(DOMString data);
+  Comment createComment(DOMString data);
+  Element? querySelector(DOMString selectors);
+  NodeList querySelectorAll(DOMString selectors);
+  NodeList getElementsByTagName(DOMString localName);
+  NodeList getElementsByClassName(DOMString classNames);
+  readonly attribute DOMString readyState;
+  attribute DOMString? cookie;
+};
+
+[Exposed=Window]
+interface HTMLElement : Element {
+  attribute DOMString? title;
+  attribute DOMString lang;
+  attribute DOMString? innerText;
+  void click();
+  void focus();
+  void blur();
+  attribute DOMString value;
+};
+
+// HTMLInputElement 등 입력용 최소(HTMLElement.value 를 상속받아 쓴다).
+[Exposed=Window]
+interface HTMLInputElement : HTMLElement {
+};
+
+// 단순한 소통을 위해 필요한 최소.
+[Exposed=Window]
+interface HTMLTextAreaElement : HTMLElement {
+};

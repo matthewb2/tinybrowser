@@ -15,6 +15,7 @@
 #define __INTMAX_C(c) c ## LL
 #define __CHAR_BIT__ 8
 #define __MINGW32__ 1
+#define V8_COMPRESS_POINTERS 1
 #define __cpp_designated_initializers 201707L
 #define __UINT8_MAX__ 0xff
 #define __SCHAR_WIDTH__ 8
@@ -68,7 +69,6 @@
 #define __BFLT16_MAX_10_EXP__ 38
 #define __BFLT16_MAX_EXP__ 128
 #define __LDBL_IS_IEC_60559__ 1
-#define QT_NO_DEBUG 1
 #define __FLT64X_HAS_QUIET_NAN__ 1
 #define __UINT_LEAST8_MAX__ 0xff
 #define __GCC_ATOMIC_BOOL_LOCK_FREE 2
@@ -269,6 +269,7 @@
 #define __GNUC_WIDE_EXECUTION_CHARSET_NAME "UTF-16LE"
 #define __cdecl __attribute__((__cdecl__))
 #define __FLT64X_DIG__ 18
+#define V8_ENABLE_SANDBOX 1
 #define __INT8_TYPE__ signed char
 #define __cpp_digit_separators 201309L
 #define __GCC_ASM_FLAG_OUTPUTS__ 1
@@ -372,6 +373,7 @@
 #define __cpp_constexpr_in_decltype 201711L
 #define __BFLT16_MIN_EXP__ (-125)
 #define __INT_MAX__ 0x7fffffff
+#define V8_31BIT_SMIS_ON_64BIT_ARCH 1
 #define WIN32 1
 #define __nocona 1
 #define __code_model_medium__ 1
@@ -422,7 +424,6 @@
 #define __SSE3__ 1
 #define __INT_FAST8_TYPE__ signed char
 #define __fastcall __attribute__((__fastcall__))
-#define TINYBROWSER_HAS_SKIA 0
 #define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
 #define __FLT64_EPSILON__ 2.22044604925031308084726333618164062e-16F64
 #define __STDCPP_THREADS__ 1

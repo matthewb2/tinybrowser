@@ -28,6 +28,18 @@ find_package(V8 QUIET)
 find_package(Gumbo REQUIRED)
 
 add_subdirectory(cssparser)
+add_subdirectory(tools/webidlgen)
+include(WebIDLGen)
+
+# WebIDL -> V8 bindings
+set(WEBIDL_GEN_DIR ${CMAKE_BINARY_DIR}/generated)
+webidl_gen(webidl_bindings
+    HEADER ${WEBIDL_GEN_DIR}/WebIDLBindings.h
+    SOURCE ${WEBIDL_GEN_DIR}/WebIDLBindings.cpp
+    IDL
+        ${CMAKE_CURRENT_SOURCE_DIR}/tools/webidlgen/src/Definitions/dom.idl
+        ${CMAKE_CURRENT_SOURCE_DIR}/tools/webidlgen/src/Definitions/html.idl
+)
 
 include_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}/include
@@ -50,7 +62,8 @@ set(SOURCES
   src/rendering/RenderEngine.cpp
   src/rendering/LayoutEngine.cpp
   src/scripting/ScriptEngine.cpp
-  src/scripting/V8DOMBridge.cpp   # <-- 이 줄을 추가해주세요
+  src/dom/WebIDLDom.cpp
+  ${WEBIDL_GEN_DIR}/WebIDLBindings.cpp
   src/parser/HtmlParser.cpp
   src/parser/StyleSheet.cpp
   src/network/NetworkManager.cpp
@@ -67,13 +80,11 @@ set(HEADERS
   include/TinyBrowser/ScriptEngine.h
   include/TinyBrowser/HtmlParser.h
   include/TinyBrowser/NetworkManager.h
-)
-
-set(RESOURCES
-  resources/resources.qrc
+  include/TinyBrowser/WebIDLDom.h
 )
 
 add_executable(TinyBrowser WIN32 ${SOURCES} ${HEADERS} ${RESOURCES})
+add_dependencies(TinyBrowser webidl_bindings)
 
 if(QT_MAJOR_VERSION EQUAL 6)
   target_link_libraries(TinyBrowser PRIVATE
@@ -91,14 +102,6 @@ else()
   )
 endif()
 
-if(Skia_FOUND)
-  target_link_libraries(TinyBrowser PRIVATE ${Skia_LIBRARIES})
-  target_compile_definitions(TinyBrowser PRIVATE TINYBROWSER_HAS_SKIA=1)
-else()
-  message(WARNING "Skia not found - using QPainter fallback rendering.")
-  target_compile_definitions(TinyBrowser PRIVATE TINYBROWSER_HAS_SKIA=0)
-endif()
-
 if(V8_FOUND)
   target_link_libraries(TinyBrowser PRIVATE ${V8_LIBRARIES})
   target_compile_definitions(TinyBrowser PRIVATE TINYBROWSER_HAS_V8=1)
@@ -106,9 +109,22 @@ else()
   target_compile_definitions(TinyBrowser PRIVATE TINYBROWSER_HAS_V8=0)
 endif()
 
-target_link_libraries(TinyBrowser PRIVATE ${Gumbo_LIBRARIES} cssparser)
-target_include_directories(TinyBrowser PRIVATE
-  ${CMAKE_CURRENT_SOURCE_DIR}/include
+# ★ V8 포인터 압축 설정 매크로 추가
+target_compile_definitions(TinyBrowser PRIVATE
+    V8_COMPRESS_POINTERS
+    V8_31BIT_SMIS_ON_64BIT_ARCH
+    V8_ENABLE_SANDBOX   # ★ 이 줄을 추가해주세요
 )
 
-message(STATUS "Skia: ${Skia_FOUND}  V8: ${V8_FOUND}  Gumbo: ${Gumbo_FOUND}")
+target_link_libraries(TinyBrowser PRIVATE ${Gumbo_LIBRARIES} cssparser
+# ★ V8 및 V8 플랫폼 라이브러리 추가
+    v8
+    v8_libplatform
+)
+
+target_include_directories(TinyBrowser PRIVATE
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+  ${WEBIDL_GEN_DIR}
+)
+
+message(STATUS "V8: ${V8_FOUND}  Gumbo: ${Gumbo_FOUND}")

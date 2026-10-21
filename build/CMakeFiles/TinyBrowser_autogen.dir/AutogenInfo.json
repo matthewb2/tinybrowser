@@ -316,7 +316,7 @@
 		"D:/msys64_20251213/mingw64/share/cmake/Modules/FindPkgConfig.cmake",
 		"D:/msys64_20251213/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"D:/msys64_20251213/mingw64/share/cmake/Modules/FindPackageMessage.cmake",
-		"D:/msys64_20251213/home/user/tinybrowser/resources/resources.qrc"
+		"D:/msys64_20251213/home/user/tinybrowser/cmake/WebIDLGen.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/msys64_20251213/home/user/tinybrowser",
 	"CROSS_CONFIG" : false,
@@ -324,6 +324,12 @@
 	"DEP_FILE_RULE_NAME" : "TinyBrowser_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"D:/msys64_20251213/home/user/tinybrowser/build/generated/WebIDLBindings.h",
+			"MU",
+			"2ZIFM3FVAV/moc_WebIDLBindings.cpp",
+			null
+		],
 		[
 			"D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ComputedStyle.h",
 			"MU",
@@ -383,6 +389,12 @@
 			"MU",
 			"Q2RBNAVEEV/moc_WebCanvas.cpp",
 			null
+		],
+		[
+			"D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebIDLDom.h",
+			"MU",
+			"Q2RBNAVEEV/moc_WebIDLDom.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -395,11 +407,12 @@
 		"QT_GUI_LIB",
 		"QT_NEEDS_QMAIN",
 		"QT_NETWORK_LIB",
-		"QT_NO_DEBUG",
 		"QT_WIDGETS_LIB",
-		"TINYBROWSER_HAS_SKIA=0",
 		"TINYBROWSER_HAS_V8=1",
 		"UNICODE",
+		"V8_31BIT_SMIS_ON_64BIT_ARCH",
+		"V8_COMPRESS_POINTERS",
+		"V8_ENABLE_SANDBOX",
 		"WIN32",
 		"WIN64",
 		"WINVER=0x0A00",
@@ -418,6 +431,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"D:/msys64_20251213/home/user/tinybrowser/include",
+		"D:/msys64_20251213/home/user/tinybrowser/build/generated",
 		"D:/msys64_20251213/home/user/tinybrowser/cssparser",
 		"D:/msys64_20251213/mingw64/include/qt6/QtCore",
 		"D:/msys64_20251213/mingw64/include/qt6",
@@ -445,7 +459,7 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"D:/msys64_20251213/mingw64/bin/g++.exe",
+		"D:/msys64_20251213/mingw64/bin/c++.exe",
 		"-std=c++20",
 		"-w",
 		"-dM",
@@ -465,6 +479,16 @@
 	"SETTINGS_FILE" : "D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/TinyBrowser_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"D:/msys64_20251213/home/user/tinybrowser/build/generated/WebIDLBindings.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/msys64_20251213/home/user/tinybrowser/src/dom/WebIDLDom.cpp",
+			"MU",
+			null
+		],
 		[ "D:/msys64_20251213/home/user/tinybrowser/src/main.cpp", "MU", null ],
 		[
 			"D:/msys64_20251213/home/user/tinybrowser/src/network/NetworkManager.cpp",
@@ -493,11 +517,6 @@
 		],
 		[
 			"D:/msys64_20251213/home/user/tinybrowser/src/scripting/ScriptEngine.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/msys64_20251213/home/user/tinybrowser/src/scripting/V8DOMBridge.cpp",
 			"MU",
 			null
 		],

@@ -69,8 +69,10 @@ WebCanvas::WebCanvas(QWidget* parent) : QWidget(parent) {
         update();
     });
 
-    m_renderEngine.initialize(800, 600);
-    loadFile("resources/index.html");
+  m_renderEngine.initialize(800, 600);
+  // 스크립트 엔진은 문서를 파싱하기 전에 준비되어야 한다.
+  m_scriptEngine.initialize();
+  loadFile("resources/index.html");
 }
 
 void WebCanvas::loadFile(const std::string& filePath) {
@@ -89,8 +91,11 @@ void WebCanvas::loadFile(const std::string& filePath) {
         return;
     }
 
-    std::string css;
+    // 파싱된 DOM을 스크립트 컨텍스트의 "document"로 노출한다.
+    m_scriptEngine.setDocument(dom);
 
+    // 1. CSS 스타일시트 수집 (기존 코드)
+    std::string css;
     std::vector<DomNode*> styleNodes;
     dom->getElementsByTagName("style", styleNodes);
     for (DomNode* s : styleNodes) {
@@ -119,6 +124,25 @@ void WebCanvas::loadFile(const std::string& filePath) {
     m_styleSheet.parse(css);
     std::cout << "[WebCanvas] Loaded " << m_styleSheet.ruleCount()
               << " CSS rules from " << filePath << std::endl;
+
+    // =========================================================
+    // 2. JavaScript 실행 로직 추가
+    // =========================================================
+    std::vector<DomNode*> scriptNodes;
+    dom->getElementsByTagName("script", scriptNodes);
+    
+    // 만약 WebCanvas가 ScriptEngine 인스턴스(예: m_scriptEngine)를 가지고 있다면:
+    for (DomNode* scriptNode : scriptNodes) {
+        std::string jsCode = scriptNode->innerText();
+        if (!jsCode.empty()) {
+            // 외부 파일(.js) src 속성이 있는 경우 처리가 필요하다면 여기서 추가 구현 가능
+            // 예: const std::string* src = scriptNode->getAttribute("src");
+            
+            // 인라인 스크립트 실행
+            m_scriptEngine.executeScript(jsCode);
+        }
+    }
+    // =========================================================
 
     int w = width() > 1 ? width() : 800;
     int h = height() > 1 ? height() : 600;

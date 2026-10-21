@@ -1,5 +1,5 @@
 CMakeFiles/TinyBrowser.dir/src/scripting/ScriptEngine.cpp.obj: \
- D:/msys64_20251213/home/user/tinybrowser/src/scripting/ScriptEngine.cpp \
+ D:\msys64_20251213\home\user\tinybrowser\src\scripting\ScriptEngine.cpp \
  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ScriptEngine.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/string \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/requires_hosted.h \
@@ -291,10 +291,7 @@ CMakeFiles/TinyBrowser.dir/src/scripting/ScriptEngine.cpp.obj: \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/monostate.h \
  D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/parse_numbers.h \
  D:/msys64_20251213/mingw64/include/v8-function-callback.h \
- D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/V8DOMBridge.h \
- D:/msys64_20251213/mingw64/include/gumbo.h \
- D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h \
- D:/msys64_20251213/mingw64/include/tag_enum.h \
+ D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebIDLDom.h \
  D:/msys64_20251213/mingw64/include/v8-context.h \
  D:/msys64_20251213/mingw64/include/v8-template.h \
  D:/msys64_20251213/mingw64/include/v8-local-handle.h \
@@ -302,4 +299,10 @@ CMakeFiles/TinyBrowser.dir/src/scripting/ScriptEngine.cpp.obj: \
  D:/msys64_20251213/mingw64/include/v8-script.h \
  D:/msys64_20251213/mingw64/include/v8-exception.h \
  D:/msys64_20251213/mingw64/include/v8-object.h \
- D:/msys64_20251213/mingw64/include/v8-primitive.h
+ D:/msys64_20251213/mingw64/include/v8-primitive.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/iostream \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/ostream \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream_print.h \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/ostream.tcc \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/istream \
+ D:/msys64_20251213/mingw64/include/c++/16.1.0/bits/istream.tcc

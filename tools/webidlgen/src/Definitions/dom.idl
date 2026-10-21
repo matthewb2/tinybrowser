@@ -1,0 +1,107 @@
+// Web IDL 부분집합: CS2Browser DOM 바인딩 생성기 입력용 (W3C DOM Core 를 요약/축약).
+// 실제 표준 전체가 아니라, 생성기 파이프라인 검증에 필요한 핵심 인터페이스만 담는다.
+
+[Exposed=Window]
+interface EventTarget {
+  void addEventListener(DOMString type, object? listener);
+  void removeEventListener(DOMString type, object? listener);
+  boolean dispatchEvent(Event event);
+};
+
+[Exposed=Window]
+interface Node : EventTarget {
+  const unsigned short ELEMENT_NODE = 1;
+  const unsigned short TEXT_NODE = 3;
+  readonly attribute unsigned short nodeType;
+  readonly attribute DOMString nodeName;
+  attribute DOMString? nodeValue;
+  attribute DOMString? textContent;
+  readonly attribute Node? parentNode;
+  readonly attribute Node? firstChild;
+  readonly attribute Node? lastChild;
+  readonly attribute Node? nextSibling;
+  readonly attribute Node? previousSibling;
+  readonly attribute boolean isConnected;
+  readonly attribute NodeList childNodes;
+  Node appendChild(Node node);
+  Node removeChild(Node child);
+  Node insertBefore(Node newChild, Node? refChild);
+  Node cloneNode(optional boolean deep = false);
+  boolean contains(Node? other);
+  boolean hasChildNodes();
+};
+
+[Exposed=Window]
+interface Element : Node {
+  readonly attribute DOMString tagName;
+  readonly attribute DOMString localName;
+  attribute DOMString id;
+  attribute DOMString className;
+  readonly attribute DOMTokenList classList;
+  attribute DOMString innerHTML;
+  attribute DOMString outerHTML;
+  DOMString? getAttribute(DOMString qualifiedName);
+  void setAttribute(DOMString qualifiedName, DOMString value);
+  void removeAttribute(DOMString qualifiedName);
+  boolean hasAttribute(DOMString qualifiedName);
+  Element? querySelector(DOMString selectors);
+  NodeList querySelectorAll(DOMString selectors);
+  NodeList getElementsByTagName(DOMString localName);
+  NodeList getElementsByClassName(DOMString classNames);
+  void append(Node node);
+  void remove();
+  readonly attribute CSSStyleDeclaration style;
+};
+
+[Exposed=Window]
+interface NodeList {
+  readonly attribute unsigned long length;
+  Node? item(unsigned long index);
+};
+
+[Exposed=Window]
+interface DOMTokenList {
+  readonly attribute unsigned long length;
+  DOMString? item(unsigned long index);
+  boolean contains(DOMString token);
+  void add(DOMString... tokens);
+  void remove(DOMString... tokens);
+  boolean toggle(DOMString token, optional boolean force);
+};
+
+[Exposed=Window]
+interface Event {
+  readonly attribute DOMString type;
+  readonly attribute EventTarget? target;
+  void preventDefault();
+  void stopPropagation();
+};
+
+// React 가 text/comment 노드를 만들고 조작할 때 필요한 최소 부분집합.
+[Exposed=Window]
+interface CharacterData : Node {
+  attribute DOMString data;
+  readonly attribute unsigned long length;
+  void appendData(DOMString data);
+  DOMString substringData(unsigned long offset, unsigned long count);
+};
+
+[Exposed=Window]
+interface Text : CharacterData {
+  readonly attribute DOMString wholeText;
+};
+
+[Exposed=Window]
+interface Comment : CharacterData {
+};
+
+// element.style / getComputedStyle 가 반환하는 CSS 스타일 선언 브릿지.
+[Exposed=Window]
+interface CSSStyleDeclaration {
+  attribute DOMString cssText;
+  readonly attribute unsigned long length;
+  DOMString getPropertyValue(DOMString property);
+  void setProperty(DOMString property, DOMString value, optional DOMString priority);
+  DOMString removeProperty(DOMString property);
+  DOMString item(unsigned long index);
+};

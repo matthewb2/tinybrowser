@@ -4,6 +4,7 @@ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/Q2RBNAVEEV/mo
   D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/HtmlParser.h \
   D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/LayoutNode.h \
   D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/RenderEngine.h \
+  D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ScriptEngine.h \
   D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/StyleSheet.h \
   D:/msys64_20251213/mingw64/include/_mingw.h \
   D:/msys64_20251213/mingw64/include/_mingw_mac.h \
@@ -179,8 +180,10 @@ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/Q2RBNAVEEV/mo
   D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/execution_defs.h \
   D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/glue_numeric_defs.h \
   D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/pstl_config.h \
+  D:/msys64_20251213/mingw64/include/c++/16.1.0/ranges \
   D:/msys64_20251213/mingw64/include/c++/16.1.0/ratio \
   D:/msys64_20251213/mingw64/include/c++/16.1.0/set \
+  D:/msys64_20251213/mingw64/include/c++/16.1.0/source_location \
   D:/msys64_20251213/mingw64/include/c++/16.1.0/sstream \
   D:/msys64_20251213/mingw64/include/c++/16.1.0/stdexcept \
   D:/msys64_20251213/mingw64/include/c++/16.1.0/streambuf \
@@ -224,12 +227,24 @@ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/Q2RBNAVEEV/mo
   D:/msys64_20251213/mingw64/include/corecrt_stdio_config.h \
   D:/msys64_20251213/mingw64/include/corecrt_wctype.h \
   D:/msys64_20251213/mingw64/include/corecrt_wstdlib.h \
+  D:/msys64_20251213/mingw64/include/cppgc/common.h \
+  D:/msys64_20251213/mingw64/include/cppgc/garbage-collected.h \
+  D:/msys64_20251213/mingw64/include/cppgc/internal/api-constants.h \
+  D:/msys64_20251213/mingw64/include/cppgc/internal/compiler-specific.h \
+  D:/msys64_20251213/mingw64/include/cppgc/internal/conditional-stack-allocated.h \
+  D:/msys64_20251213/mingw64/include/cppgc/macros.h \
+  D:/msys64_20251213/mingw64/include/cppgc/name-provider.h \
+  D:/msys64_20251213/mingw64/include/cppgc/platform.h \
+  D:/msys64_20251213/mingw64/include/cppgc/source-location.h \
+  D:/msys64_20251213/mingw64/include/cppgc/trace-trait.h \
+  D:/msys64_20251213/mingw64/include/cppgc/type-traits.h \
   D:/msys64_20251213/mingw64/include/crtdefs.h \
   D:/msys64_20251213/mingw64/include/ctype.h \
   D:/msys64_20251213/mingw64/include/errno.h \
   D:/msys64_20251213/mingw64/include/limits.h \
   D:/msys64_20251213/mingw64/include/locale.h \
   D:/msys64_20251213/mingw64/include/malloc.h \
+  D:/msys64_20251213/mingw64/include/math.h \
   D:/msys64_20251213/mingw64/include/process.h \
   D:/msys64_20251213/mingw64/include/pthread.h \
   D:/msys64_20251213/mingw64/include/pthread_compat.h \
@@ -418,6 +433,56 @@ D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/Q2RBNAVEEV/mo
   D:/msys64_20251213/mingw64/include/sys/timeb.h \
   D:/msys64_20251213/mingw64/include/sys/types.h \
   D:/msys64_20251213/mingw64/include/time.h \
+  D:/msys64_20251213/mingw64/include/v8-array-buffer.h \
+  D:/msys64_20251213/mingw64/include/v8-callbacks.h \
+  D:/msys64_20251213/mingw64/include/v8-container.h \
+  D:/msys64_20251213/mingw64/include/v8-context.h \
+  D:/msys64_20251213/mingw64/include/v8-data.h \
+  D:/msys64_20251213/mingw64/include/v8-date.h \
+  D:/msys64_20251213/mingw64/include/v8-debug.h \
+  D:/msys64_20251213/mingw64/include/v8-embedder-heap.h \
+  D:/msys64_20251213/mingw64/include/v8-embedder-state-scope.h \
+  D:/msys64_20251213/mingw64/include/v8-exception.h \
+  D:/msys64_20251213/mingw64/include/v8-extension.h \
+  D:/msys64_20251213/mingw64/include/v8-external.h \
+  D:/msys64_20251213/mingw64/include/v8-function-callback.h \
+  D:/msys64_20251213/mingw64/include/v8-function.h \
+  D:/msys64_20251213/mingw64/include/v8-handle-base.h \
+  D:/msys64_20251213/mingw64/include/v8-initialization.h \
+  D:/msys64_20251213/mingw64/include/v8-internal.h \
+  D:/msys64_20251213/mingw64/include/v8-isolate.h \
+  D:/msys64_20251213/mingw64/include/v8-json.h \
+  D:/msys64_20251213/mingw64/include/v8-local-handle.h \
+  D:/msys64_20251213/mingw64/include/v8-locker.h \
+  D:/msys64_20251213/mingw64/include/v8-maybe.h \
+  D:/msys64_20251213/mingw64/include/v8-memory-span.h \
+  D:/msys64_20251213/mingw64/include/v8-message.h \
+  D:/msys64_20251213/mingw64/include/v8-microtask-queue.h \
+  D:/msys64_20251213/mingw64/include/v8-microtask.h \
+  D:/msys64_20251213/mingw64/include/v8-object.h \
+  D:/msys64_20251213/mingw64/include/v8-persistent-handle.h \
+  D:/msys64_20251213/mingw64/include/v8-platform.h \
+  D:/msys64_20251213/mingw64/include/v8-primitive-object.h \
+  D:/msys64_20251213/mingw64/include/v8-primitive.h \
+  D:/msys64_20251213/mingw64/include/v8-promise.h \
+  D:/msys64_20251213/mingw64/include/v8-proxy.h \
+  D:/msys64_20251213/mingw64/include/v8-regexp.h \
+  D:/msys64_20251213/mingw64/include/v8-sandbox.h \
+  D:/msys64_20251213/mingw64/include/v8-script.h \
+  D:/msys64_20251213/mingw64/include/v8-snapshot.h \
+  D:/msys64_20251213/mingw64/include/v8-source-location.h \
+  D:/msys64_20251213/mingw64/include/v8-statistics.h \
+  D:/msys64_20251213/mingw64/include/v8-template.h \
+  D:/msys64_20251213/mingw64/include/v8-traced-handle.h \
+  D:/msys64_20251213/mingw64/include/v8-typed-array.h \
+  D:/msys64_20251213/mingw64/include/v8-unwinder.h \
+  D:/msys64_20251213/mingw64/include/v8-value-serializer.h \
+  D:/msys64_20251213/mingw64/include/v8-value.h \
+  D:/msys64_20251213/mingw64/include/v8-version.h \
+  D:/msys64_20251213/mingw64/include/v8-wasm.h \
+  D:/msys64_20251213/mingw64/include/v8-weak-callback-info.h \
+  D:/msys64_20251213/mingw64/include/v8.h \
+  D:/msys64_20251213/mingw64/include/v8config.h \
   D:/msys64_20251213/mingw64/include/vadefs.h \
   D:/msys64_20251213/mingw64/include/wchar.h \
   D:/msys64_20251213/mingw64/include/wctype.h \

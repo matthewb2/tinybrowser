@@ -2,7 +2,8 @@
 	"InstallScripts" : 
 	[
 		"D:/msys64_20251213/home/user/tinybrowser/build/cmake_install.cmake",
-		"D:/msys64_20251213/home/user/tinybrowser/build/cssparser/cmake_install.cmake"
+		"D:/msys64_20251213/home/user/tinybrowser/build/cssparser/cmake_install.cmake",
+		"D:/msys64_20251213/home/user/tinybrowser/build/tools/webidlgen/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

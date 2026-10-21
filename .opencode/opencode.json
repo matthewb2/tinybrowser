@@ -1,0 +1,4 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "shell": "D:\\msys64_20251213\\msys2_shell.cmd -mingw64 -defterm -no-start"
+}

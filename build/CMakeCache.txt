@@ -25,13 +25,13 @@ CMAKE_AR:FILEPATH=D:/msys64_20251213/mingw64/bin/ar.exe
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:STRING=D:/msys64_20251213/mingw64/bin/g++.exe
+CMAKE_CXX_COMPILER:FILEPATH=D:/msys64_20251213/mingw64/bin/c++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -59,11 +59,6 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//Full path to the compiler used for language <LANG>. Set by CMake
-// during compiler detection on the first configure; users may
-// override on the command line to select a specific toolchain.
-CMAKE_C_COMPILER:UNINITIALIZED=D:/msys64_20251213/mingw64/bin/gcc.exe
-
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=D:/msys64_20251213/mingw64/bin/dlltool.exe
 
@@ -81,9 +76,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
-
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/msys64_20251213/home/user/tinybrowser/build/CMakeFiles/pkgRedirects
@@ -146,7 +138,7 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 CMAKE_LINKER:FILEPATH=D:/msys64_20251213/mingw64/bin/ld.exe
 
 //Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=D:/msys64_20251213/mingw64/bin/make.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=D:/msys64_20251213/mingw64/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -369,6 +361,15 @@ Vulkan_LIBRARY:FILEPATH=D:/msys64_20251213/mingw64/lib/libvulkan-1.dll.a
 //Path to a program.
 WINDEPLOYQT_EXECUTABLE:FILEPATH=D:/msys64_20251213/mingw64/bin/windeployqt.exe
 
+//Value Computed by CMake
+WebIDLGen_BINARY_DIR:STATIC=D:/msys64_20251213/home/user/tinybrowser/build/tools/webidlgen
+
+//Value Computed by CMake
+WebIDLGen_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+WebIDLGen_SOURCE_DIR:STATIC=D:/msys64_20251213/home/user/tinybrowser/tools/webidlgen
+
 //Path to a library.
 pkgcfg_lib_PC_Gumbo_gumbo:FILEPATH=D:/msys64_20251213/mingw64/lib/libgumbo.dll.a
 
@@ -452,12 +453,10 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Unix Makefiles
+CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.
@@ -520,7 +519,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -586,32 +585,32 @@ Gumbo_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 Gumbo_LIBRARIES-ADVANCED:INTERNAL=1
 //Test HAVE_STDATOMIC
 HAVE_STDATOMIC:INTERNAL=1
-PC_Gumbo_CFLAGS:INTERNAL=-ID:/msys64_20251213/mingw64/bin/../include
+PC_Gumbo_CFLAGS:INTERNAL=-ID:/msys64_20251213/mingw64/include
 PC_Gumbo_CFLAGS_I:INTERNAL=
 PC_Gumbo_CFLAGS_OTHER:INTERNAL=
 PC_Gumbo_FOUND:INTERNAL=1
-PC_Gumbo_INCLUDEDIR:INTERNAL=D:/msys64_20251213/mingw64/bin/../include
-PC_Gumbo_INCLUDE_DIRS:INTERNAL=D:/msys64_20251213/mingw64/bin/../include
-PC_Gumbo_LDFLAGS:INTERNAL=-LD:/msys64_20251213/mingw64/bin/../lib;-lgumbo
+PC_Gumbo_INCLUDEDIR:INTERNAL=D:/msys64_20251213/mingw64/include
+PC_Gumbo_INCLUDE_DIRS:INTERNAL=D:/msys64_20251213/mingw64/include
+PC_Gumbo_LDFLAGS:INTERNAL=-LD:/msys64_20251213/mingw64/lib;-lgumbo
 PC_Gumbo_LDFLAGS_OTHER:INTERNAL=
-PC_Gumbo_LIBDIR:INTERNAL=D:/msys64_20251213/mingw64/bin/../lib
+PC_Gumbo_LIBDIR:INTERNAL=D:/msys64_20251213/mingw64/lib
 PC_Gumbo_LIBRARIES:INTERNAL=gumbo
-PC_Gumbo_LIBRARY_DIRS:INTERNAL=D:/msys64_20251213/mingw64/bin/../lib
+PC_Gumbo_LIBRARY_DIRS:INTERNAL=D:/msys64_20251213/mingw64/lib
 PC_Gumbo_LIBS:INTERNAL=
 PC_Gumbo_LIBS_L:INTERNAL=
 PC_Gumbo_LIBS_OTHER:INTERNAL=
 PC_Gumbo_LIBS_PATHS:INTERNAL=
 PC_Gumbo_MODULE_NAME:INTERNAL=gumbo
-PC_Gumbo_PREFIX:INTERNAL=D:/msys64_20251213/mingw64/bin/..
-PC_Gumbo_STATIC_CFLAGS:INTERNAL=-ID:/msys64_20251213/mingw64/bin/../include
+PC_Gumbo_PREFIX:INTERNAL=D:/msys64_20251213/mingw64
+PC_Gumbo_STATIC_CFLAGS:INTERNAL=-ID:/msys64_20251213/mingw64/include
 PC_Gumbo_STATIC_CFLAGS_I:INTERNAL=
 PC_Gumbo_STATIC_CFLAGS_OTHER:INTERNAL=
-PC_Gumbo_STATIC_INCLUDE_DIRS:INTERNAL=D:/msys64_20251213/mingw64/bin/../include
-PC_Gumbo_STATIC_LDFLAGS:INTERNAL=-LD:/msys64_20251213/mingw64/bin/../lib;-lgumbo
+PC_Gumbo_STATIC_INCLUDE_DIRS:INTERNAL=D:/msys64_20251213/mingw64/include
+PC_Gumbo_STATIC_LDFLAGS:INTERNAL=-LD:/msys64_20251213/mingw64/lib;-lgumbo
 PC_Gumbo_STATIC_LDFLAGS_OTHER:INTERNAL=
 PC_Gumbo_STATIC_LIBDIR:INTERNAL=
 PC_Gumbo_STATIC_LIBRARIES:INTERNAL=gumbo
-PC_Gumbo_STATIC_LIBRARY_DIRS:INTERNAL=D:/msys64_20251213/mingw64/bin/../lib
+PC_Gumbo_STATIC_LIBRARY_DIRS:INTERNAL=D:/msys64_20251213/mingw64/lib
 PC_Gumbo_STATIC_LIBS:INTERNAL=
 PC_Gumbo_STATIC_LIBS_L:INTERNAL=
 PC_Gumbo_STATIC_LIBS_OTHER:INTERNAL=
@@ -621,32 +620,32 @@ PC_Gumbo_gumbo_INCLUDEDIR:INTERNAL=
 PC_Gumbo_gumbo_LIBDIR:INTERNAL=
 PC_Gumbo_gumbo_PREFIX:INTERNAL=
 PC_Gumbo_gumbo_VERSION:INTERNAL=
-PC_V8_CFLAGS:INTERNAL=-ID:/msys64_20251213/mingw64/bin/../include
+PC_V8_CFLAGS:INTERNAL=-ID:/msys64_20251213/mingw64/include
 PC_V8_CFLAGS_I:INTERNAL=
 PC_V8_CFLAGS_OTHER:INTERNAL=
 PC_V8_FOUND:INTERNAL=1
-PC_V8_INCLUDEDIR:INTERNAL=D:/msys64_20251213/mingw64/bin/../include
-PC_V8_INCLUDE_DIRS:INTERNAL=D:/msys64_20251213/mingw64/bin/../include
-PC_V8_LDFLAGS:INTERNAL=-LD:/msys64_20251213/mingw64/bin/../lib;-lv8;-lz;-licuin;-licuuc;-licudt;-lv8_libbase
+PC_V8_INCLUDEDIR:INTERNAL=D:/msys64_20251213/mingw64/include
+PC_V8_INCLUDE_DIRS:INTERNAL=D:/msys64_20251213/mingw64/include
+PC_V8_LDFLAGS:INTERNAL=-LD:/msys64_20251213/mingw64/lib;-lv8;-lz;-licuin;-licuuc;-licudt;-lv8_libbase
 PC_V8_LDFLAGS_OTHER:INTERNAL=
-PC_V8_LIBDIR:INTERNAL=D:/msys64_20251213/mingw64/bin/../lib
+PC_V8_LIBDIR:INTERNAL=D:/msys64_20251213/mingw64/lib
 PC_V8_LIBRARIES:INTERNAL=v8;z;icuin;icuuc;icudt;v8_libbase
-PC_V8_LIBRARY_DIRS:INTERNAL=D:/msys64_20251213/mingw64/bin/../lib
+PC_V8_LIBRARY_DIRS:INTERNAL=D:/msys64_20251213/mingw64/lib
 PC_V8_LIBS:INTERNAL=
 PC_V8_LIBS_L:INTERNAL=
 PC_V8_LIBS_OTHER:INTERNAL=
 PC_V8_LIBS_PATHS:INTERNAL=
 PC_V8_MODULE_NAME:INTERNAL=v8
-PC_V8_PREFIX:INTERNAL=D:/msys64_20251213/mingw64/bin/..
-PC_V8_STATIC_CFLAGS:INTERNAL=-ID:/msys64_20251213/mingw64/bin/../include;-DU_STATIC_IMPLEMENTATION;-DU_STATIC_IMPLEMENTATION
+PC_V8_PREFIX:INTERNAL=D:/msys64_20251213/mingw64
+PC_V8_STATIC_CFLAGS:INTERNAL=-ID:/msys64_20251213/mingw64/include;-DU_STATIC_IMPLEMENTATION;-DU_STATIC_IMPLEMENTATION
 PC_V8_STATIC_CFLAGS_I:INTERNAL=
 PC_V8_STATIC_CFLAGS_OTHER:INTERNAL=-DU_STATIC_IMPLEMENTATION;-DU_STATIC_IMPLEMENTATION
-PC_V8_STATIC_INCLUDE_DIRS:INTERNAL=D:/msys64_20251213/mingw64/bin/../include
-PC_V8_STATIC_LDFLAGS:INTERNAL=-LD:/msys64_20251213/mingw64/bin/../lib;-lv8;-lz;-licuin;-licuuc;-licudt;-lpthread;-lm;-lv8_libbase
+PC_V8_STATIC_INCLUDE_DIRS:INTERNAL=D:/msys64_20251213/mingw64/include
+PC_V8_STATIC_LDFLAGS:INTERNAL=-LD:/msys64_20251213/mingw64/lib;-lv8;-lz;-licuin;-licuuc;-licudt;-lpthread;-lm;-lv8_libbase
 PC_V8_STATIC_LDFLAGS_OTHER:INTERNAL=
 PC_V8_STATIC_LIBDIR:INTERNAL=
 PC_V8_STATIC_LIBRARIES:INTERNAL=v8;z;icuin;icuuc;icudt;pthread;m;v8_libbase
-PC_V8_STATIC_LIBRARY_DIRS:INTERNAL=D:/msys64_20251213/mingw64/bin/../lib
+PC_V8_STATIC_LIBRARY_DIRS:INTERNAL=D:/msys64_20251213/mingw64/lib
 PC_V8_STATIC_LIBS:INTERNAL=
 PC_V8_STATIC_LIBS_L:INTERNAL=
 PC_V8_STATIC_LIBS_OTHER:INTERNAL=
@@ -1585,5 +1584,5 @@ pkgcfg_lib_PC_V8_v8-ADVANCED:INTERNAL=1
 pkgcfg_lib_PC_V8_v8_libbase-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PC_V8_z
 pkgcfg_lib_PC_V8_z-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=D:/msys64_20251213/mingw64/bin/../lib
+prefix_result:INTERNAL=D:/msys64_20251213/mingw64/lib
 

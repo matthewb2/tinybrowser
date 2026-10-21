@@ -1,2 +1,2 @@
-D:/msys64_20251213/mingw64/bin/ar.exe qc ../lib/libcssparser.a CMakeFiles/cssparser.dir/cssparser_autogen/mocs_compilation.cpp.obj CMakeFiles/cssparser.dir/CSSParser.cpp.obj CMakeFiles/cssparser.dir/CSSUtils.cpp.obj CMakeFiles/cssparser.dir/CSSProperties.cpp.obj CMakeFiles/cssparser.dir/CSSDeNest.cpp.obj
-D:/msys64_20251213/mingw64/bin/ranlib.exe ../lib/libcssparser.a
+D:\msys64_20251213\mingw64\bin\ar.exe qc ..\lib\libcssparser.a CMakeFiles/cssparser.dir/cssparser_autogen/mocs_compilation.cpp.obj CMakeFiles/cssparser.dir/CSSParser.cpp.obj CMakeFiles/cssparser.dir/CSSUtils.cpp.obj CMakeFiles/cssparser.dir/CSSProperties.cpp.obj CMakeFiles/cssparser.dir/CSSDeNest.cpp.obj
+D:\msys64_20251213\mingw64\bin\ranlib.exe ..\lib\libcssparser.a

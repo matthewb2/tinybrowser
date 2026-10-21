@@ -366,6 +366,7 @@ D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebCanvas.h
  mdp:D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/HtmlParser.h
  mdp:D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/LayoutNode.h
  mdp:D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/RenderEngine.h
+ mdp:D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ScriptEngine.h
  mdp:D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/StyleSheet.h
  mdp:D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebCanvas.h
  mdp:D:/msys64_20251213/mingw64/include/_mingw.h
@@ -542,8 +543,10 @@ D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebCanvas.h
  mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/execution_defs.h
  mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/glue_numeric_defs.h
  mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/pstl/pstl_config.h
+ mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/ranges
  mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/ratio
  mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/set
+ mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/source_location
  mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/sstream
  mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/stdexcept
  mdp:D:/msys64_20251213/mingw64/include/c++/16.1.0/streambuf
@@ -587,12 +590,24 @@ D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebCanvas.h
  mdp:D:/msys64_20251213/mingw64/include/corecrt_stdio_config.h
  mdp:D:/msys64_20251213/mingw64/include/corecrt_wctype.h
  mdp:D:/msys64_20251213/mingw64/include/corecrt_wstdlib.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/common.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/garbage-collected.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/internal/api-constants.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/internal/compiler-specific.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/internal/conditional-stack-allocated.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/macros.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/name-provider.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/platform.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/source-location.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/trace-trait.h
+ mdp:D:/msys64_20251213/mingw64/include/cppgc/type-traits.h
  mdp:D:/msys64_20251213/mingw64/include/crtdefs.h
  mdp:D:/msys64_20251213/mingw64/include/ctype.h
  mdp:D:/msys64_20251213/mingw64/include/errno.h
  mdp:D:/msys64_20251213/mingw64/include/limits.h
  mdp:D:/msys64_20251213/mingw64/include/locale.h
  mdp:D:/msys64_20251213/mingw64/include/malloc.h
+ mdp:D:/msys64_20251213/mingw64/include/math.h
  mdp:D:/msys64_20251213/mingw64/include/process.h
  mdp:D:/msys64_20251213/mingw64/include/pthread.h
  mdp:D:/msys64_20251213/mingw64/include/pthread_compat.h
@@ -781,23 +796,69 @@ D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebCanvas.h
  mdp:D:/msys64_20251213/mingw64/include/sys/timeb.h
  mdp:D:/msys64_20251213/mingw64/include/sys/types.h
  mdp:D:/msys64_20251213/mingw64/include/time.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-array-buffer.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-callbacks.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-container.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-context.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-data.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-date.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-debug.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-embedder-heap.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-embedder-state-scope.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-exception.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-extension.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-external.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-function-callback.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-function.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-handle-base.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-initialization.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-internal.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-isolate.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-json.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-local-handle.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-locker.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-maybe.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-memory-span.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-message.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-microtask-queue.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-microtask.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-object.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-persistent-handle.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-platform.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-primitive-object.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-primitive.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-promise.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-proxy.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-regexp.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-sandbox.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-script.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-snapshot.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-source-location.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-statistics.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-template.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-traced-handle.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-typed-array.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-unwinder.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-value-serializer.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-value.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-version.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-wasm.h
+ mdp:D:/msys64_20251213/mingw64/include/v8-weak-callback-info.h
+ mdp:D:/msys64_20251213/mingw64/include/v8.h
+ mdp:D:/msys64_20251213/mingw64/include/v8config.h
  mdp:D:/msys64_20251213/mingw64/include/vadefs.h
  mdp:D:/msys64_20251213/mingw64/include/wchar.h
  mdp:D:/msys64_20251213/mingw64/include/wctype.h
  mdp:D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h
  mdp:D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h
-D:/msys64_20251213/home/user/tinybrowser/src/ui/WebCanvas.cpp
 D:/msys64_20251213/home/user/tinybrowser/src/rendering/RenderEngine.cpp
 D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/LayoutNode.h
-D:/msys64_20251213/home/user/tinybrowser/src/scripting/ScriptEngine.cpp
-D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/LayoutEngine.h
+D:/msys64_20251213/home/user/tinybrowser/build/generated/WebIDLBindings.h
+D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/HtmlParser.h
+D:/msys64_20251213/home/user/tinybrowser/src/ui/MainWindow.cpp
 D:/msys64_20251213/home/user/tinybrowser/src/network/NetworkManager.cpp
-D:/msys64_20251213/home/user/tinybrowser/src/rendering/LayoutEngine.cpp
-D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/StyleSheet.h
-D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ComputedStyle.h
-D:/msys64_20251213/home/user/tinybrowser/src/main.cpp
-D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ScriptEngine.h
-D:/msys64_20251213/home/user/tinybrowser/src/scripting/V8DOMBridge.cpp
+D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/LayoutEngine.h
+D:/msys64_20251213/home/user/tinybrowser/src/ui/WebCanvas.cpp
 D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/MainWindow.h
  mmc:Q_OBJECT
  mdp:D:/msys64_20251213/home/user/tinybrowser/build/TinyBrowser_autogen/moc_predefs.h
@@ -1218,7 +1279,14 @@ D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/MainWindow.h
  mdp:D:/msys64_20251213/mingw64/include/wctype.h
  mdp:D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h
  mdp:D:/msys64_20251213/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h
-D:/msys64_20251213/home/user/tinybrowser/src/ui/MainWindow.cpp
-D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/HtmlParser.h
 D:/msys64_20251213/home/user/tinybrowser/src/parser/StyleSheet.cpp
 D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/RenderEngine.h
+D:/msys64_20251213/home/user/tinybrowser/src/scripting/ScriptEngine.cpp
+D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/WebIDLDom.h
+D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ComputedStyle.h
+D:/msys64_20251213/home/user/tinybrowser/src/main.cpp
+D:/msys64_20251213/home/user/tinybrowser/build/generated/WebIDLBindings.cpp
+D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/ScriptEngine.h
+D:/msys64_20251213/home/user/tinybrowser/src/dom/WebIDLDom.cpp
+D:/msys64_20251213/home/user/tinybrowser/src/rendering/LayoutEngine.cpp
+D:/msys64_20251213/home/user/tinybrowser/include/TinyBrowser/StyleSheet.h
