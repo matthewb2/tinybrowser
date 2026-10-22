@@ -134,12 +134,18 @@ void WebCanvas::loadFile(const std::string& filePath) {
     // 만약 WebCanvas가 ScriptEngine 인스턴스(예: m_scriptEngine)를 가지고 있다면:
     for (DomNode* scriptNode : scriptNodes) {
         std::string jsCode = scriptNode->innerText();
-        if (!jsCode.empty()) {
-            // 외부 파일(.js) src 속성이 있는 경우 처리가 필요하다면 여기서 추가 구현 가능
-            // 예: const std::string* src = scriptNode->getAttribute("src");
-            
-            // 인라인 스크립트 실행
-            m_scriptEngine.executeScript(jsCode);
+        if (jsCode.empty()) {
+            continue;
+        }
+        // 외부 파일(.js) src 속성이 있는 경우 처리가 필요하다면 여기서 추가 구현 가능
+        // 예: const std::string* src = scriptNode->getAttribute("src");
+
+        // 인라인 스크립트 실행
+        m_scriptEngine.clearOutput();
+        m_scriptEngine.executeScript(jsCode);
+        if (!m_scriptEngine.getOutput().empty()) {
+            std::cerr << "[WebCanvas] Script error: " << m_scriptEngine.getOutput()
+                      << std::endl;
         }
     }
     // =========================================================

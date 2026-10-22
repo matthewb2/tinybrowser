@@ -16,6 +16,7 @@ interface Document : Node {
   NodeList getElementsByClassName(DOMString classNames);
   readonly attribute DOMString readyState;
   attribute DOMString? cookie;
+  void write(DOMString text);
 };
 
 [Exposed=Window]

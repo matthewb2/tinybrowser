@@ -389,6 +389,7 @@ DOMTokenList* makeTokenList(DomNode* element);
 CSSStyleDeclaration* makeStyleDeclaration(DomNode* element);
 Event* makeEvent(const std::string& type, EventTarget* target);
 void replaceChildren(DomNode* element, const std::string& html);
+void appendHtml(DomNode* parent, const std::string& html);
 void setTextContentOn(DomNode* node, const std::optional<std::string>& value);
 std::unique_ptr<DomNode> cloneDomNode(DomNode* node, bool deep);
 std::unique_ptr<DomNode> detachNode(DomNode* node);
@@ -913,6 +914,20 @@ struct DocumentLevel : NodeLevel<Base> {
   std::optional<std::string> cookie() const override { return std::nullopt; }
 
   void setCookie(std::optional<std::string> value) override { (void)value; }
+
+  void write(std::string text) override {
+    DomNode* node = backingNode(this);
+    if (node == nullptr) return;
+    // The markup is appended to the body, or to the document itself when the
+    // document has no body element.
+    DomNode* target = node;
+    std::vector<DomNode*> bodies;
+    node->getElementsByTagName("body", bodies);
+    if (!bodies.empty()) {
+      target = bodies.front();
+    }
+    appendHtml(target, text);
+  }
 };
 
 template <typename Base>
@@ -1388,6 +1403,21 @@ void replaceChildren(DomNode* element, const std::string& html) {
   for (auto& child : parsed) {
     child->parent = element;
     element->children.push_back(std::move(child));
+  }
+}
+
+void appendHtml(DomNode* parent, const std::string& html) {
+  if (parent == nullptr || html.empty()) return;
+
+  if (fragmentParser() == nullptr) {
+    fragmentParser() = std::make_unique<HtmlParser>();
+  }
+  DomNode* fragment = fragmentParser()->parse(html);
+  if (fragment == nullptr) return;
+  std::vector<std::unique_ptr<DomNode>> parsed = std::move(fragment->children);
+  for (auto& child : parsed) {
+    child->parent = parent;
+    parent->children.push_back(std::move(child));
   }
 }
 

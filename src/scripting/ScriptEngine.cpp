@@ -16,39 +16,10 @@
 
 namespace TinyBrowser {
 
-ScriptEngine* ScriptEngine::s_instance = nullptr;
-
-ScriptEngine::ScriptEngine() {
-  if (s_instance == nullptr) {
-    s_instance = this;
-  }
-}
+ScriptEngine::ScriptEngine() = default;
 
 ScriptEngine::~ScriptEngine() {
   shutdown();
-  if (s_instance == this) {
-    s_instance = nullptr;
-  }
-}
-
-void ScriptEngine::documentWrite(const v8::FunctionCallbackInfo<v8::Value>& args) {
-  if (s_instance == nullptr) return;
-  v8::Isolate* isolate = args.GetIsolate();
-  v8::HandleScope scope(isolate);
-  v8::Local<v8::Context> context = isolate->GetCurrentContext();
-  for (int i = 0; i < args.Length(); i++) {
-    v8::Local<v8::Value> arg = args[i];
-    v8::Local<v8::String> str;
-    if (arg->IsString()) {
-      str = arg.As<v8::String>();
-    } else {
-      if (!arg->ToString(context).ToLocal(&str)) continue;
-    }
-    v8::String::Utf8Value utf8(isolate, str);
-    if (*utf8) {
-      s_instance->m_output += *utf8;
-    }
-  }
 }
 
 bool ScriptEngine::initialize() {
